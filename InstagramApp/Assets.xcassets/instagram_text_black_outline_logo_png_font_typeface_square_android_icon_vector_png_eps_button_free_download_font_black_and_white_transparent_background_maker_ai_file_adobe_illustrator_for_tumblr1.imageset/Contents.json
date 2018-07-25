@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "idiom" : "universal",
+      "filename" : "instagram_text_black_outline_logo_png_font_typeface_square_android_icon_vector_png_eps_button_free_download_font_black_and_white_transparent_background_maker_ai_file_adobe_illustrator_for_tumblr1.png",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "version" : 1,
+    "author" : "xcode"
+  }
+}

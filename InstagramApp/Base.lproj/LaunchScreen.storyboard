@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Billabong.ttf">
+            <string>Billabong</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="pTN-iD-BRr">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Instagram" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="59w-th-4Yz">
+                                <rect key="frame" x="90" y="296" width="195" height="75.5"/>
+                                <fontDescription key="fontDescription" name="Billabong" family="Billabong" pointSize="61"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="c36a54ea89f6f1e245f343b9689e8c670a8d2a99 copy" translatesAutoresizingMaskIntoConstraints="NO" id="64l-Rb-ggW">
+                                <rect key="frame" x="147" y="190" width="80" height="80"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="80" id="9b3-gX-vi9"/>
+                                    <constraint firstAttribute="height" constant="80" id="GAJ-UM-Mai"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="HNJ-Su-Rhh" firstAttribute="bottom" secondItem="59w-th-4Yz" secondAttribute="bottom" constant="295.5" id="5dz-x4-oOU"/>
+                            <constraint firstItem="HNJ-Su-Rhh" firstAttribute="trailing" secondItem="59w-th-4Yz" secondAttribute="trailing" constant="90" id="8dA-2x-1oJ"/>
+                            <constraint firstItem="59w-th-4Yz" firstAttribute="leading" secondItem="HNJ-Su-Rhh" secondAttribute="leading" constant="90" id="9eH-Mv-eo1"/>
+                            <constraint firstItem="64l-Rb-ggW" firstAttribute="top" secondItem="HNJ-Su-Rhh" secondAttribute="top" constant="170" id="EZk-tn-5uc"/>
+                            <constraint firstItem="HNJ-Su-Rhh" firstAttribute="trailing" secondItem="64l-Rb-ggW" secondAttribute="trailing" constant="148" id="El4-cs-9p3"/>
+                            <constraint firstItem="64l-Rb-ggW" firstAttribute="leading" secondItem="HNJ-Su-Rhh" secondAttribute="leading" constant="147" id="QIm-0O-aC7"/>
+                            <constraint firstItem="59w-th-4Yz" firstAttribute="top" secondItem="64l-Rb-ggW" secondAttribute="bottom" constant="26" id="bNX-vy-CbP"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="HNJ-Su-Rhh"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="c36a54ea89f6f1e245f343b9689e8c670a8d2a99 copy" width="2133" height="2133"/>
+    </resources>
+</document>
